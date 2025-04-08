@@ -1,6 +1,9 @@
-/* style.scss */
-
 /* Global Styles */
+@font-face {
+    font-family: 'Bristol';
+    src: url('fonts/Bristol.otf') format('opentype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +11,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Bristol', sans-serif;
     background-color: #f7f7f7;
     color: #333;
     line-height: 1.6;
